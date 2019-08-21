@@ -11,7 +11,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class ApiController extends AbstractController
 {
     /**
-     * Из задания не ясно какие именно методы API нужно сделать, и по какому протоколу работает API (HTTP, GPRC, AMPQ, Binary и так далее)
+     * Из задания не ясно какие именно методы API нужно сделать, и по какому протоколу работает API (HTTP, GRPC, AMPQ, Binary и так далее)
      * поэтому сделаю получение кода по HTTP через JSON
      *
      * @Route(
