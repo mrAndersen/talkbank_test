@@ -110,7 +110,7 @@ class PromocodeService
             ->getQuery()
             // Здесь можно использовать result cache который будет очищаться каждый раз когда промокод используют
             // При условии что операция получения информации по коду - выполняется часто
-//            ->useResultCache(true, 3600, sprintf("promo:%s", $rawCode))
+//            ->useResultCache(true, 3600)
             ->getResult();
 
         /** @var PromoCode $promoCode */
